@@ -38,9 +38,9 @@ footer{
     clear: both;
 }
 
-@media (min-width:160px)and (max-width:256px){
+/* @media (min-width:160px)and (max-width:256px){
     *{
         background-color: aqua;
         text-size-adjust:inherit ;
     }
-}
+} */
