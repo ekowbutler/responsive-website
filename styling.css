@@ -1,0 +1,73 @@
+/* Navbar styling */
+nav {
+    background-color: black;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Main image container */
+.main-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Aligns content to the left */
+    text-align: left;
+    /* Ensures text aligns to the left */
+    padding-left: 5%;
+    /* Adds spacing from the left edge */
+}
+
+/* Ensuring the image covers the section */
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Styling for the text */
+.main-image h1 {
+    position: relative;
+    /* Ensures text is above the image */
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    z-index: 1;
+    max-width: 50%;
+    /* Limits text width for better readability */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for highlighted "Executive" */
+.Executive {
+    color: #ffcc00;
+    font-weight: bold;
+}
